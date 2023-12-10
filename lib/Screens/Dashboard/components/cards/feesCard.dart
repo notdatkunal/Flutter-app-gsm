@@ -1,0 +1,72 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+class FeesCard extends StatelessWidget {
+  const FeesCard({
+    super.key,
+    required this.imageUrl,
+    required this.selectedColor,
+    required this.selectedText,
+    required this.cardText,
+    required this.image,
+    this.selectedIcon,
+    required this.onFees,
+  });
+
+  final AssetImage imageUrl;
+  final String image;
+  final Color selectedColor;
+  final String selectedText;
+  final String cardText;
+  final Icon? selectedIcon;
+  final void Function() onFees;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      flex: 3,
+      child: Card(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+        elevation: 1.0,
+        child: InkWell(
+          onTap: onFees,
+          child: Container(
+              height: 120,
+              width: double.infinity,
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                shape: BoxShape.rectangle,
+                borderRadius: BorderRadius.circular(8),
+                image: DecorationImage(
+                  image: imageUrl,
+                  fit: BoxFit.fill,
+                ),
+              ),
+              child: Stack(
+                children: [
+                  Row(
+                    children: [
+                      Image.asset(
+                        image,
+                        height: 30,
+                        width: 30,
+                      ),
+                      SizedBox(
+                        width: 4,
+                      ),
+                      Text(
+                        selectedText,
+                        style: GoogleFonts.ubuntu(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                            color: selectedColor),
+                      ),
+                    ],
+                  ),
+                ],
+              )),
+        ),
+      ),
+    );
+  }
+}
