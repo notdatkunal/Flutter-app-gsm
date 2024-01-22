@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Workspace
-   version = "1.0">
-   <FileRef
-      location = "group:Runner.xcodeproj">
-   </FileRef>
-</Workspace>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab89cf1171793fb1aebfdca2f3df054c31aa50185e522538f8a246adc266a547
+size 330

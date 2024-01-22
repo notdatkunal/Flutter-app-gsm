@@ -1,34 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:gurukulapp/Screens/Dashboard/components/cards/feesCard.dart';
-import 'package:gurukulapp/Screens/feesScreen/actionRequiredContainer.dart';
-import 'package:gurukulapp/Screens/feesScreen/cardList.dart';
-import 'package:gurukulapp/Screens/feesScreen/feesScreenCard.dart';
-import 'package:gurukulapp/constraits.dart';
-import 'package:gurukulapp/defaultScaffold.dart';
-
-class FeesScreen extends StatelessWidget {
-  const FeesScreen({super.key});
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return DefaultScaffold(
-        title: 'Fees & Payments',
-        color: const Color.fromARGB(255, 223, 235, 250),
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 20,
-              ),
-              Container(height: 400, child: CardList()),
-              FeesScreenCard(
-                ammount: '50,000',
-                heading: 'Extending Date',
-              ),
-              ActionRequiredContainer(title: 'Action Required'),
-              ActionRequiredContainer(title: 'Payment History'),
-            ],
-          ),
-        ));
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:960ac8bc4cdc71a95eb6e171ab136789978308580de944c08bdd0b66dc1cdb84
+size 1389

@@ -1,15 +1,3 @@
-//
-//  Generated file. Do not edit.
-//
-
-// clang-format off
-
-#ifndef GENERATED_PLUGIN_REGISTRANT_
-#define GENERATED_PLUGIN_REGISTRANT_
-
-#include <flutter_linux/flutter_linux.h>
-
-// Registers Flutter plugins.
-void fl_register_plugins(FlPluginRegistry* registry);
-
-#endif  // GENERATED_PLUGIN_REGISTRANT_
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6ea9eaf3cf16e0ed0729fd58ff27173f7768dd3d4644096c41313a77a06d2a1
+size 481

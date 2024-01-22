@@ -1,34 +1,3 @@
-**/dgph
-*.mode1v3
-*.mode2v3
-*.moved-aside
-*.pbxuser
-*.perspectivev3
-**/*sync/
-.sconsign.dblite
-.tags*
-**/.vagrant/
-**/DerivedData/
-Icon?
-**/Pods/
-**/.symlinks/
-profile
-xcuserdata
-**/.generated/
-Flutter/App.framework
-Flutter/Flutter.framework
-Flutter/Flutter.podspec
-Flutter/Generated.xcconfig
-Flutter/ephemeral/
-Flutter/app.flx
-Flutter/app.zip
-Flutter/flutter_assets/
-Flutter/flutter_export_environment.sh
-ServiceDefinitions.json
-Runner/GeneratedPluginRegistrant.*
-
-# Exceptions to above rules.
-!default.mode1v3
-!default.mode2v3
-!default.pbxuser
-!default.perspectivev3
+version https://git-lfs.github.com/spec/v1
+oid sha256:60caba3709c989b30caab1d5fde29ac5abcd33a8180971c4e159759e11fa7457
+size 747

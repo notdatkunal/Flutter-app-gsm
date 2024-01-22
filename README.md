@@ -1,16 +1,3 @@
-# gurukulapp
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1328780958047957cb9c22242999ca6b9065c531ab33a94327c776d5e49a7b6b
+size 731
